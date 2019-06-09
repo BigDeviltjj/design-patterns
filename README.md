@@ -42,6 +42,31 @@ make list of objects and single object share same API.
 
 offer a unified interface which hidding complex system operation.
 
-#### Icon
+#### Flyweight
 
 describes how to share objects, which can save memory.
+
+#### Curiously recurring template pattern
+
+realize Static polymorphism.
+
+---
+
+### Behavioral  patterns
+
+#### chain of responsibility
+
+decouple the request the class receives by adding more classes to handle it.
+
+#### command
+
+decouple transmitter and receiver so that transmitter only knows how to send command while but does not know how it works.
+
+#### observer
+
+when the observered class changes, other classes observing it are notified and changed.
+
+#### iterator
+
+used in container to traverse a container without knowing how container is structured.
+
